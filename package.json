@@ -10,9 +10,19 @@
   "author": "Justin Doty",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.5.8",
+    "bcrypt": "^0.8.7",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "express-session": "^1.14.0",
     "grunt": "^1.0.1",
-    "mongoose": "^4.5.7"
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-init": "^0.3.2",
+    "mongoose": "^4.5.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   }
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>passport</title>
+    <script src="/vendor/angular/angular.min.js" charset="utf-8"></script>
+    <script src="/scripts/client.min.js"></script>
+    <script src="./models/user.js"></script>
+
+  </head>
+    <body>
+      <form action="/login" method="post">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div>
+          <label for="password">Username:</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div>
+          <input type="submit" value="Log In" />
+          <a href="/register">Register</a>
+        </div>
+      </form>
+    </body>
+
+</html>
