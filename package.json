@@ -23,6 +23,16 @@
     "grunt-init": "^0.3.2",
     "mongoose": "^4.5.7",
     "passport": "^0.3.2",
-    "passport-local": "^1.0.0"
-  }
+    "passport-local": "^1.0.0",
+    "pg": "^6.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justindoty/passport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justindoty/passport/issues"
+  },
+  "homepage": "https://github.com/justindoty/passport#readme"
 }

@@ -4,8 +4,8 @@ var passport = require('passport');
 var path = require('path');
 
 
-router.get("/", function(req,res,next){
-  res.sendFile(path.resolve(__dirname, '../public/views/login.html'));
+router.get("/", function(req,res){
+  res.send(req.isAuthenticated());
 });
 
 
@@ -16,9 +16,6 @@ router.post('/',
   })
 );
 
-// router.get('/', function(req, res, next) {
-//   res.json(req.isAuthenticated());
-// });
 
 
 
